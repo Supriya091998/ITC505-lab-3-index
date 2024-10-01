@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <title>Font Delivery Example</title>
+    <style>
+        body {
+            font-family: 'Lobster Two', cursive;
+            background-color:#87CEEB; 
+            color:#FF0000; 
+        }
+        
+        h1 {
+            font-size: 3cm;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5cm;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Web Page!</h1>
+    <p>This  is Supriya, this is my webpage created as a part of web technologies assignment. I've used skyblue color for the background and bright red for the font in the web page</p>
+    
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
